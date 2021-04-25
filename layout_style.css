@@ -1,0 +1,52 @@
+
+
+footer{
+grid-area: footer;
+
+}
+header{
+grid-area: header;
+
+
+}
+nav{
+
+grid-area: nav;
+
+
+}
+main{
+
+grid-area: main;
+}
+
+
+
+section{
+grid-area: section;
+}
+
+
+#layout {  
+ display: grid; 
+ grid-gap: 0;
+ grid-template-areas: "header" "section" "nav" "main" "footer";
+
+ 
+}
+
+
+#layout main{
+ width: 90%;
+ max-width: 1300px;
+ margin: auto;
+
+}
+nav li{
+display: inline;
+
+}
+nav ul{
+
+float:left;
+}

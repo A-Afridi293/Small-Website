@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>SHVH</title>
+        
+         <link rel="stylesheet" type="text/css" href ="base.css" />
+        <link rel="stylesheet" type="text/css" href ="style.css" />
+        <link rel="stylesheet" type="text/css" href ="layout_style.css" />
+        <link rel="stylesheet" type="text/css" href="navicon.css" />
+        <script type="text/javascript" src= "arrays.js"> </script defer>
+        <script type="text/javascript" src= "cart.js"> </script defer>
+        
+        
+         <style>
+div#cart table {
+font-size: 1.0em;
+border-collapse:collapse;
+line-height: 1.0em; }
+div#cart tr:nth-of-type(even) {
+background-color: #cccccc; }
+div#cart table tr td:nth-of-type(2), div#cart table tr td:nth-of-type(3), div#cart table tr td:nth-of-type(4) {
+text-align: right; }
+div#cart table th {
+background-color: #8b6f47;
+color: rgb(231, 231, 231);
+padding: 5px; }
+div#cart table td {
+padding: 5px; }
+div#cart table tfoot tr:first-of-type {
+border-top: 6px double #470202;
+}
+div#cart table tfoot tr td {
+background-color: #8b6f47;
+text-align:right;
+}
+</style>
+
+
+    </head>
+    <body>
+    <div id='layout'>
+        <header>
+            <h1>
+                SHVH&#9764;
+            </h1>
+            <h4>
+                Clothing Not for the Faint of Heart
+            </h4>
+            
+            
+            
+        </header>
+        <nav><a id="navicon" href="#"><img src="navicon.png" width="32px" /></a>
+            <ul>
+                <li><a href ="index.html"  target-"_top"> Home</a></li>
+                <li><a href="about.html" target="_top"> About Us</a></li>
+                <li><a href="contact.html" target="_top">Contact Us</a></li>
+                <li><a href="products.html" target="_top">Products</a></li>
+                <li><a href="cart.html" target="_top">Cart</a></li>
+            </ul>
+            <!-- links for menu go here -->
+        </nav>
+        <section> <h2>
+            Clothing with Sacred Geometry&#9764;
+        </h2></section>
+        <main>
+            <h3> 
+            Shopping Cart
+            
+            </h3>
+            <div id='cart'>
+         
+          
+                  
+                   
+            
+            
+            
+            
+            <script defer>
+    document.write(cartHTML);
+    
+</script>
+            <button type="buton">Proceed to Checkout</button>
+            <p id = 'sdate'> 
+            
+            </p>
+            
+            <script defer>
+            var now = new Date();
+var shipDays = new Date();
+now.setDate(shipDays.getDate()+4);
+   document.getElementById("sdate").innerHTML = "* Orders placed today will be shipped by " + (now.getMonth() +1) +  "/" + now.getDate() + "/" + now.getFullYear();
+</script>
+            
+            <!-- could have footer element here for section -->
+        </main>
+          </div>
+        <footer>
+            Copyright by 2019 Ahmad Afridi
+        </footer>
+        </div>
+    </body>
+</html>

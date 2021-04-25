@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us at SHVH </title>
+        <link rel="stylesheet" type="text/css" href ="base.css" />
+        <link rel="stylesheet" type="text/css" href ="style.css" />
+        <link rel="stylesheet" type="text/css" href ="layout_style.css" />
+        <link rel="stylesheet" type="text/css" href="style_table_form.css" />
+        <link rel="stylesheet" type="text/css" href="navicon.css" />
+    </head>
+    <body>
+    <div id= 'layout'>
+        <header>
+            <h1>
+                SHVH&#9764;
+            </h1>
+            <h4>
+                Clothing Not for the Faint of Heart
+            </h4>
+            
+            
+            
+        </header>
+        <nav>
+        <a id="navicon" href="#"><img src="navicon.png" width="32px" /></a>
+            <ul>
+              <li><a href ="index.html"  target-"_top"> Home</a></li>
+                <li><a href="about.html" target="_top"> About Us</a></li>
+                <li><a href="contact.html" target="_top">Contact Us</a></li>
+                <li><a href="products.html" target="_top">Products</a></li>
+                <li><a href="cart.html" target="_top">Cart</a></li>
+            </ul>
+            <!-- links for menu go here -->
+        </nav>
+        <section> <h2>
+            Contact Us
+        </h2></section>
+        <main>
+        
+        
+        <form id= "contactForm">
+      <form action= "mailto:ahmad.afridi@ucdenver.edu">
+           <fieldset id= "contactFields">
+       
+        	<legend> Contact Information</legend>
+
+        
+         
+      
+         
+         <div class= "formRow">
+         <label for="name">Name:</label>
+<span style="color:red">*</span>
+
+         <input type="text"  name="myname" required>
+        
+         </input>
+         
+         </div>
+         
+         
+           <div class= "formRow">
+         <label for="email">Email:</label>
+
+<span style="color:red">*</span>
+           <input type="email"  name="myemail" required>
+         
+         </input>
+         
+         </div>
+         
+         
+           <div class= "formRow">
+         <label for="phone">Phone Number:</label>
+
+
+           <input type="tel"  name="myname">
+         
+         </input>
+         
+         </div>
+         
+         </form>
+        
+           </fieldset>
+        
+        <fieldset id= "requestFields">
+       
+        	<legend>Information Request</legend>
+
+        
+         
+         
+         
+         <div class= "formRow">
+         <label for="topic">Question Topic: </label>
+
+		<span style="color:red">*</span>
+           <select required>
+  <option value="Product Information">Product Information</option>
+  <option value="Purchase Information">Purchase Information</option>
+  <option value="Return Policy">Return Policy</option>
+  <option value="Store">Physical Store Adress</option>
+</select>
+         
+         </div>
+         
+         </form>
+         
+         
+         
+         <div class= "formRow">
+         <label for="Subject">Subject:</label>
+
+<span style="color:red">*</span>
+           <input type="text"  name="Subject" required>
+         
+         </input>
+         
+         </div>
+         
+         
+         
+         <label for="textarea">Ask Us Your Question:
+         <span style="color:red">*</span>
+         
+         </label>
+       
+          <textarea rows="5" maxlength="55"> </textarea>
+         
+         
+          <fieldset id= "mailingList">
+       
+        	<legend>Do you want to be on our mailing list?</legend>
+        	
+        	
+        	  <label for="Yes">Yes</label>
+  <input type="radio" name="mYesmNo" value="mYes"/>
+         
+         
+         
+         <label for="No">No</label>
+         <input type="radio" name="mYesmNo" value="mNO"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         </fieldset>
+         
+         <button type="submit" value="Submit">Submit Request</button>
+  <button type="reset" value="Reset">Reset</button>
+
+         
+         </form>
+            
+        </form>
+        <footer>
+            Copyright by 2019 Ahmad Afridi
+        </footer>
+        </div>
+    </body>
+</html>
+

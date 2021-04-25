@@ -1,0 +1,68 @@
+a#navicon { display: none; 
+
+background:none;
+padding 0px 0px 0px 0px;
+height: auto;
+
+}
+
+@media(max-device-width: 480px) 
+{
+
+display: block;
+
+ nav ul
+ {
+ display: none;
+ 
+ }       
+   nav ul li 
+   {
+   display: block;
+   
+   }    
+   
+   
+   a#navicon:hover+ul, nav ul:hover {
+  display:block;
+  float: none;
+} 
+        
+     h2
+     {
+     text-shadow: none;
+     color:#D76100;
+     
+     }   
+     
+     #layout
+     {
+      grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "main"
+    "footer";
+     }
+        
+        
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

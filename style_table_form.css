@@ -1,0 +1,82 @@
+.gridArea {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+article img {
+  display: block;
+  margin: auto;
+}
+
+article table {
+  margin: auto;
+  background-size: 120px 120px;
+}
+
+tfoot td {
+  text-align: center;
+  background-size: 120px 120px;
+}
+
+article caption {
+  font-weight: bold;
+}
+
+article {
+  border: 2px solid #820505;
+  border-radius: 25px;
+  background-color: gray;
+}
+
+
+fieldset
+{
+
+background-color: #cccccc;
+border-color: #D76100;
+padding: 5px;
+margin-bottom: 10px;
+
+}
+fieldset,span
+{
+color; red;
+}
+
+div .formRow
+{
+display: flex;
+flex-flow: row wrap;
+margin: 7px;
+}
+
+
+input[type=text]
+ {
+    width: 250px;
+}
+input[type=email]
+ {
+    width: 250px;
+}
+input[type=tel]
+ {
+    width: 150px;
+}
+
+textarea
+{
+width: 95%;
+max-width: 450px;
+padding: 5px;
+margin-top: 10px;
+}
+
+label {
+  display: block;
+  
+}
+
+
+
